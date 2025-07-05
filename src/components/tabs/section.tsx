@@ -150,7 +150,7 @@ export default function Section1 () {
                         />
                     </div>
                 </div>
-                <p className={`flex justify-center lg:text-[16px] md:text-[16px] text-[#2CC297] sm:text-[14px] text-[12px] ${poppins.className} text-justify lg:mx-20 lg:mx-12 mx-7 mt-10`}>Halo! Saya Raffi Mahya Pratama, freelance web developer yang membantu UMKM, bisnis lokal, dan perusahaan untuk membuat website yang profesional, cepat jadi, dan terjangkau.
+                <p className={`flex justify-center lg:text-[16px] md:text-[16px] text-[#2CC297] sm:text-[14px] text-[14px] ${poppins.className} text-justify lg:mx-20 lg:mx-12 mx-7 mt-10`}>Halo! Saya Raffi Mahya Pratama, freelance web developer yang membantu UMKM, bisnis lokal, dan perusahaan untuk membuat website yang profesional, cepat jadi, dan terjangkau.
                 <br />
 
                 Saya percaya setiap bisnis besar atau kecil berhak tampil meyakinkan di internet. Karena itu, saya bantu dari nol: mulai dari ide awal sampai website siap tayang dan langsung bisa dipakai untuk jualan, branding, atau kebutuhan internal.
