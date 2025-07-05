@@ -69,7 +69,7 @@ export default function Umkm3Page () {
                 </div>
                 <div className="flex justify-center py-15 mx-1">
                     <a href="https://wa.me/6289666823165?text=Halo%20kak%20saya%20ingin%20membuat%20website%20paket%20UMKM%203">
-                    <button className={`${poppins.className} lg:text-[16px] md:text-[14px] sm:text-[14px] text-[12px] px-25 py-2 bg-[#03624C] border border-[#2CC297] text-white rounded-lg transition ease-in-out duration-200 hover:scale-105 rounded-lg`}>Tertarik? Hubungi Kami</button>
+                    <button className={`${poppins.className} lg:text-[16px] md:text-[14px] sm:text-[14px] text-[12px] px-25 py-2 bg-[#03624C] border border-[#2CC297] text-white rounded-lg transition ease-in-out duration-200 hover:scale-105 rounded-lg`}>Hubungi Kami untuk Konsultasi Gratis</button>
                     </a>
                 </div>
             </div>

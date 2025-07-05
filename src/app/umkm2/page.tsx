@@ -341,7 +341,7 @@ export default function Umkm2Page() {
                 </div>
             </div>
             <div className="flex justify-center pb-15 pt-10 mx-1">
-                <button onClick={handlePesan} className={`${poppins.className} lg:text-[16px] md:text-[14px] sm:text-[14px] text-[12px] lg:text-[16px] md:text-[14px] sm:text-[14px] text-[12px] px-25 py-2 bg-[#03624C] border border-[#2CC297] text-white rounded-lg transition ease-in-out duration-200 hover:scale-105 rounded-lg`}>Sudah milih? Kasih tau kami</button>
+                <button onClick={handlePesan} className={`${poppins.className} lg:text-[16px] md:text-[14px] sm:text-[14px] text-[12px] lg:text-[16px] md:text-[14px] sm:text-[14px] text-[12px] px-25 py-2 bg-[#03624C] border border-[#2CC297] text-white rounded-lg transition ease-in-out duration-200 hover:scale-105 rounded-lg`}>Sudah milih? Hubungi Kami untuk Konsultasi Gratis</button>
             </div>
         </section>
     )

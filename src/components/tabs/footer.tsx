@@ -22,7 +22,7 @@ export default function Footer () {
             <p>WhatsApp</p>
           </div>
           <a href="https://wa.me/6289666823165" target="_blank" rel="noopener noreferrer" className="hover:underline">
-            CS: 0896-6682-3165
+            Raffi: 0896-6682-3165
           </a>
         </div>
 

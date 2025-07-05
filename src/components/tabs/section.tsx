@@ -9,6 +9,7 @@ import 'swiper/css/navigation'; // jika pakai navigasi
 import 'swiper/css/pagination'; // jika pakai pagination
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+import Image from "next/image"
 
 export default function Section1 () {
     return(
@@ -137,6 +138,27 @@ export default function Section1 () {
                 </Swiper>
             </section>
             <section>
+                <h2 className={`${poppinsSB.className} flex justify-center text-white lg:text-[32px] md:text-[32px] sm:text-[32px] text-[26px] mx-10 text-center pt-25 pb-10`}>Di Balik Layar EZee-Web</h2>
+                <div className="flex justify-center">
+                    <div className="lg:w-[360px] lg:h-[360px] md:w-[360px] md:h-[360px] sm:w-[240px] sm:h-[240px] w-[240px] h-[240px]">
+                    <Image
+                    className="w-full "
+                        src="/raffi.png"
+                        width={500}
+                        height={500}
+                        alt="Picture of the author"
+                        />
+                    </div>
+                </div>
+                <p className={`flex justify-center lg:text-[16px] md:text-[16px] text-[#2CC297] sm:text-[14px] text-[12px] ${poppins.className} text-justify lg:mx-20 lg:mx-12 mx-7 mt-10`}>Halo! Saya Raffi Mahya Pratama, freelance web developer yang membantu UMKM, bisnis lokal, dan perusahaan untuk membuat website yang profesional, cepat jadi, dan terjangkau.
+                <br />
+
+                Saya percaya setiap bisnis besar atau kecil berhak tampil meyakinkan di internet. Karena itu, saya bantu dari nol: mulai dari ide awal sampai website siap tayang dan langsung bisa dipakai untuk jualan, branding, atau kebutuhan internal.
+                <br />
+
+                Saya tidak hanya membuat website company profile, tapi juga website custom dengan fitur dan sistem sesuai permintaan, seperti katalog produk, form booking, dashboard admin, dan lainnya semua disesuai kebutuhan bisnis anda.</p>
+            </section>
+            <section>
                 <h2 className={`${poppinsSB.className} flex justify-center text-white lg:text-[32px] md:text-[32px] sm:text-[32px] text-[26px] mx-10 text-justify pt-25`} id="product">Yang Kami Tawarkan</h2>
                 <div className="flex justify-center flex-wrap gap-10 mt-10 items-end">
                     <Special url="/umkm1" labelAatas="Paket UMKM" harga="Rp. 98.000" d1="Website Company Profile" d2="Desain Responsif" d3="Free Hosting" d4="1 Hari jadi" d5="Template dari 3 Sample yang Kami Sediakan" d6="Website Terhubung ke Sosial Media Anda" d7="(Instagram, Whatsapp, Gmaps, dll)" d8="SEO-Friendly" d9="Custom Domain situsAnda.my.id" d10="Revisi" d11="1 page" statDom={true} statRev={false} d12=""/>
@@ -145,6 +167,33 @@ export default function Section1 () {
                     <Cardsrvc url="/ecommerce" labelAatas="Sesuaikan sistem anda" harga="Mulai dari Rp. 889.000" d1="Website dinamis" d2="Desain Responsif" d3="Free Hosting" d4="5-10 hari" d5="Fitur sesuai kebutuhan anda" d6="Website Terhubung ke Sosial Media Anda" d7="(Instagram, Whatsapp, Gmaps, dll)" d8="SEO-Friendly" d9="Custom Domain situsAnda.my.id" d13="1 Email Profesional email@domainAnda.my.id 2Gb" statEm={true} d10="Revisi 2 X" d11="1-3 pages" statDom={true} statRev={true} d12="Garansi Fix Bug & Error 30 Hari"/>
                     <Cardsrvc url="/bebas" labelAatas="Pegang Kendali Penuh Website Anda" harga="Mulai dari Rp. 2.449.000" d1="Custom Penuh Website Anda" d2="WEbsite Dinamis" d3="Desain Responsif" d4="Free Hosting" d5="7-14 Hari" d6="Website Terhubung ke Sosial Media Anda" d7="(Instagram, Whatsapp, Gmaps, dll)" d8="SEO-Friendly" d9="Custom Domain situsAnda.com" d13="1 Email Profesional email@domainAnda.com 2Gb" statEm={true} d10="Revisi 4 X" d11="1-6 pages" statDom={true} statRev={true} d12="Garansi Fix Bug & Error 30 Hari"/>
                 </div>
+            </section>
+            <section>
+                <h2 className={`${poppinsSB.className} flex justify-center text-white lg:text-[32px] md:text-[32px] sm:text-[32px] text-[26px] mx-10 text-center pt-25 pb-2`}>Bingung Pilih Paket yang Mana??... Yuk Hubugi Kami!</h2>
+                <div className="                    flex flex-col sm:flex-col md:flex-row lg:flex-row
+                    justify-center gap-3
+                    py-10 mb-10
+                    sm:w-full px-5">
+                        <a href="https://wa.me/6289666823165" className="sm:w-full md:w-auto">
+                            <button
+                            className={`
+                                ${poppins.className}
+                                w-full sm:w-full md:w-auto
+                                px-20 md:px-20 lg:px-25
+                                py-2
+                                bg-[#03624C] border border-[#2CC297] text-white
+                                rounded-lg
+                                transition ease-in-out duration-200
+                                hover:scale-105
+                                block sm:block md:inline-block
+                                mx-auto sm:mx-auto md:mx-0
+                            `}
+                            >
+                            Yuk Hubungi Kami! Gratiss!
+                            </button>
+                        </a>
+
+                    </div>
             </section>
         </div>
     )
