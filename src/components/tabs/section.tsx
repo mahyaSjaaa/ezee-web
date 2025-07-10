@@ -102,7 +102,7 @@ export default function Section1 () {
                 <h2 className={`${poppinsSB.className} flex justify-center text-white lg:text-[32px] md:text-[32px] sm:text-[32px] text-[26px] mx-10 text-center pt-25 pb-10`} id="explore">Contoh Projek Yang Menggunakan Jasa EZee-WEB</h2>
                 <div className="flex flex-wrap justify-center gap-3">
                     <Porto img_url="/porto1.png" desc1="drafteraja.my.id" desc2="paket &quot;Sesuaikan sistem anda&quot;. Company Profile dengan fitur admin dashboard untuk mengatur isi konten website"/>
-                    <Porto img_url="/porto2.png" desc1="sembako-murah-pakaji.my.id" desc2="paket &quot;UMKM 2&quot;. Company Profile yang yang berikan profil usaha dan list produk"/>
+                    <Porto img_url="/porto2.png" desc1="sembako-murah-pakaji.my.id" desc2="paket &quot;UMKM 2&quot;. Company Profile yang yang berisikan profil usaha dan list produk"/>
                 </div>
             </section>
             <section>
