@@ -7,8 +7,7 @@ import {motion} from "framer-motion"
 import 'swiper/css';
 import 'swiper/css/navigation'; // jika pakai navigasi
 import 'swiper/css/pagination'; // jika pakai pagination
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+import Porto from "../ui/cardPorto"
 import Image from "next/image"
 
 export default function Section1 () {
@@ -101,41 +100,10 @@ export default function Section1 () {
             </div>
             <section className="w-full">
                 <h2 className={`${poppinsSB.className} flex justify-center text-white lg:text-[32px] md:text-[32px] sm:text-[32px] text-[26px] mx-10 text-center pt-25 pb-10`} id="explore">Contoh Projek Yang Menggunakan Jasa EZee-WEB</h2>
-                <Swiper
-                    modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-                    className="w-full lg:max-w-[800px] md:max-w-[700px] sm:max-w-[600px] max-w-[500px]"
-                    spaceBetween={10}
-                    slidesPerView={1}
-                    loop={true}
-                    autoplay={{
-                    delay: 5000,
-                    disableOnInteraction: false,
-                    pauseOnMouseEnter: true,
-                    }}
-                    pagination={{ clickable: true }}
-                    scrollbar={{ draggable: true }}
-                    onSwiper={(swiper) => {
-                    console.log('Swiper ready', swiper);
-                    if (swiper?.autoplay) swiper.autoplay.start(); // ⬅️ Pastikan autoplay aktif
-                    }}
-                >
-                    <SwiperSlide>
-                    <div className="flex justify-center">
-                        <div className="w-full max-w-[800px] aspect-[16/7] rounded-lg overflow-hidden">
-                        <div className="w-full h-full bg-[url(/projek1.png)] bg-cover bg-center"></div>
-                        </div>
-                    </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    <div className="flex justify-center">
-                        <div className="w-full max-w-[800px] aspect-[16/7] rounded-lg overflow-hidden">
-                        <div className="w-full h-full bg-[url(/projek2.png)] bg-cover bg-center"></div>
-                        </div>
-                    </div>
-                    </SwiperSlide>
-
-                    {/* Tambah slide lainnya */}
-                </Swiper>
+                <div className="flex flex-wrap justify-center gap-3">
+                    <Porto img_url="/porto1.png" desc1="drafteraja.my.id" desc2="paket &quot;Sesuaikan sistem anda&quot;. Company Profile dengan fitur admin dashboard untuk mengatur isi konten website"/>
+                    <Porto img_url="/porto2.png" desc1="sembako-murah-pakaji.my.id" desc2="paket &quot;UMKM 2&quot;. Company Profile yang yang berikan profil usaha dan list produk"/>
+                </div>
             </section>
             <section>
                 <h2 className={`${poppinsSB.className} flex justify-center text-white lg:text-[32px] md:text-[32px] sm:text-[32px] text-[26px] mx-10 text-center pt-25 pb-10`}>Di Balik Layar EZee-Web</h2>
